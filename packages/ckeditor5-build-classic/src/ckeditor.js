@@ -67,6 +67,28 @@ ClassicEditor.builtinPlugins = [
 	AutoSave
 ];
 
+const borderColors = [
+	{
+		color: '#999',
+		label: 'Gray'
+	},
+	{
+		color: '#000',
+		label: 'Black'
+	}
+];
+
+const backgroundColors = [
+	{
+		color: '#eee',
+		label: 'Light Gray'
+	},
+	{
+		color: '#fff',
+		label: 'White'
+	}
+];
+
 /* heading: {
             options: [
               {
@@ -116,7 +138,9 @@ ClassicEditor.defaultConfig = {
 		]
 	},
 	table: {
-		contentToolbar: [ 'tableColumn', 'tableRow', 'mergeTableCells' ]
+		contentToolbar: [ 'tableColumn', 'tableRow', 'mergeTableCells', 'tableProperties', 'tableCellProperties' ],
+		tableProperties: { borderColors, backgroundColors },
+		tableCellProperties: { borderColors, backgroundColors }
 	},
 	heading: {
 		options: [
