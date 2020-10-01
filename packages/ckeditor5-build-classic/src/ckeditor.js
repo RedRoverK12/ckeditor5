@@ -69,48 +69,46 @@ ClassicEditor.builtinPlugins = [
 
 const borderColors = [
 	{
-		color: '#999',
+		color: '#E1E1E1',
+		label: 'Light'
+	},
+	{
+		color: '#C4C4C4',
 		label: 'Gray'
 	},
 	{
-		color: '#000',
-		label: 'Black'
+		color: '#050039',
+		label: 'Dark'
 	}
 ];
 
 const backgroundColors = [
 	{
-		color: '#eee',
-		label: 'Light Gray'
+		color: '#C4C4C4',
+		label: 'Gray'
 	},
 	{
-		color: '#fff',
-		label: 'White'
+		color: '#9B99B0',
+		label: 'Navy'
+	},
+	{
+		color: '#B1B8EF',
+		label: 'Blue'
+	},
+	{
+		color: '#4CC17C',
+		label: 'Green'
+	},
+	{
+		color: '#FFEB99',
+		label: 'Yellow'
+	},
+	{
+		color: '#FFBBBB',
+		label: 'Red'
 	}
 ];
 
-/* heading: {
-            options: [
-              {
-                model: 'paragraph',
-                title: 'Paragraph',
-                class: 'ck-heading_paragraph',
-              },
-              {
-                model: 'heading1',
-                view: 'h2',
-                title: 'Heading',
-                class: 'ck-heading_heading1',
-              },
-            ],
-          },
-          removePlugins: [],
-          toolbar: (
-            'heading | ' +
-            'bold italic underline | ' +
-            'numberedList bulletedList insertTable | ' +
-            'link mediaEmbed'
-          ).split(' '),*/
 // Editor configuration.
 ClassicEditor.defaultConfig = {
 	toolbar: {
